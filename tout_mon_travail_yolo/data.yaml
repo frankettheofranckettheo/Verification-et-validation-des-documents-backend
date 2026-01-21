@@ -1,0 +1,37 @@
+names:
+  0: Anciennes cni camerounaises Recto
+  1: Drapeau
+  2: Image distinctif
+  3: Informations personnels
+  4: Nom du document
+  5: Nom du pays
+  6: Photo
+  7: Photo en Noir et blanc
+  8: Signature
+  9: Bloc de droite
+  10: Nouvelles cni camerounaises Recto
+  11: Nouvelles cni camerounaises Verso
+  12: Photo en noir et blanc
+  13: QR Code
+  14: "Signature de l'autorit\xE9 administrative"
+  15: Couverture
+  16: Date d'expiration
+  17: "Date de d\xE9livrance"
+  18: Interieur du passeport
+  19: Numero de passeport
+  20: Sceau
+  21: footer
+  22: Anciennes cni camerounaises Verso
+  23: Bloc de gauche
+  24: Footer
+  25: Header
+  26: "Signature de l'autorit\xE9 comp\xE9tente"
+  27: Categorie
+  28: Date de delivrance
+  29: Permi camerounais Recto
+  30: Permi camerounais Verso
+  31: QR code
+  32: "tableau des cat\xE9gories de permis"
+path: /kaggle/working/dataset_ready
+train: images/train
+val: images/val
