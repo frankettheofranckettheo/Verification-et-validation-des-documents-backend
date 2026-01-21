@@ -1,20 +1,15 @@
-# 1. On dit à pip de chercher d'abord les versions CPU ici
 --extra-index-url https://download.pytorch.org/whl/cpu
 
-# Framework Web
 fastapi==0.111.0
 uvicorn[standard]==0.30.1
 python-multipart==0.0.9
 
-# IA & Vision
-# On ne fixe pas de version pour laisser pip prendre la plus récente compatible CPU
+# Pas de version fixée pour torch/torchvision pour éviter les conflits
 torch
 torchvision
 ultralytics==8.2.32
 
-# On garde le blocage numpy < 2 pour éviter les bugs
 numpy<2.0.0
 
-# Traitement image
 pillow==10.3.0
 pytesseract==0.3.10
