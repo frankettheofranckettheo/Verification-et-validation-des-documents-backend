@@ -1,15 +1,20 @@
-# Framework Web et Serveur
+# 1. On dit à pip de chercher d'abord les versions CPU ici
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+# Framework Web
 fastapi==0.111.0
 uvicorn[standard]==0.30.1
 python-multipart==0.0.9
 
-# Vision par ordinateur et IA
-torch==2.4.1
-torchvision==0.19.1
+# IA & Vision
+# On ne fixe pas de version pour laisser pip prendre la plus récente compatible CPU
+torch
+torchvision
 ultralytics==8.2.32
-# Note: On force numpy < 2.0 car la version 2.0 crée encore des conflits avec certaines libs ML
+
+# On garde le blocage numpy < 2 pour éviter les bugs
 numpy<2.0.0
 
-# Traitement d'image et OCR
+# Traitement image
 pillow==10.3.0
 pytesseract==0.3.10
